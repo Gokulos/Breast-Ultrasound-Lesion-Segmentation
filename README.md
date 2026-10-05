@@ -38,9 +38,26 @@ Notes:
 ![Results](Images/Results_1.png)
 
 ## Classifier Results
-![Results](Images/Results_2.png)
+### Model Performance
+The classifier achieves an overall **accuracy of 80%** across 160 evaluated cases.
 
----
+#### Summary Metrics
+
+| Class | Samples | Correctly Identified | Recall | Precision |
+| :--- | :---: | :---: | :---: | :---: |
+| **Normal** | 27 | 27 / 27 | 100% | 93% |
+| **Benign** | 91 | 84 / 91 | 92% | 77% |
+| **Malignant** | 42 | 17 / 42 | 40% | 77% |
+
+#### Confusion Matrix 
+
+This matrix compares the true labels against what the model predicted:
+
+| Actual \ Predicted | Predicted Normal | Predicted Benign | Predicted Malignant |
+| :--- | :---: | :---: | :---: |
+| **Actual Normal** | **27** (correct) | 0 | 0 |
+| **Actual Benign** | 2 | **84** (correct) | 5 |
+| **Actual Malignant** | 0 | **25** (false negative) | **17** (correct) |
 
 ## Repository Structure
 
