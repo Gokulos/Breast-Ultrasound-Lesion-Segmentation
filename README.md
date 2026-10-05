@@ -37,7 +37,7 @@ Notes:
 ## Segmentation Results:
 ![Results](Images/Results_1.png)
 
-## Classification Model Results
+## Classifier Results
 ![Results](Images/Results_2.png)
 
 ---
