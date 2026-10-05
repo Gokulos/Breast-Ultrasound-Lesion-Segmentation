@@ -2,7 +2,7 @@
 
 This project uses two diff models for:
 
-1. **U-Net segmentation** → predicts lesion mask, with a
+1. **Image segmentation** → predicts lesion mask, with a
 2. **Classifier** → predicts diagnosis (**normal / benign / malignant**) using the predicted mask
 
 ---
