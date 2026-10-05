@@ -102,14 +102,9 @@ Segmentation (U-Net)
 
 Classification
 
-Classifier input:
-- Channel 1 → original ultrasound image
-- Channel 2 → predicted lesion mask
+Classifier input: (original ultrasound image, predicted lesion mask)
 
-Outputs:
-- Normal
-- Benign
-- Malignant
+Outputs: (Normal, Benign, Malignant)
 ```
 ---
 
