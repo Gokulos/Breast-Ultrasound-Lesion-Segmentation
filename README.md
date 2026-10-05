@@ -1,6 +1,4 @@
-# Breast Ultrasound Lesion Segmentation + Diagnosis (U-Net + Classifier)
-
-A two-stage deep learning pipeline for **breast ultrasound analysis** using the BUSI dataset.
+# Breast Ultrasound Lesion Segmentation and Diagnosis
 
 This project combines:
 
@@ -42,10 +40,7 @@ Notes:
 ## Classification Model Results
 ![Results](Images/Results_2.png)
 
-
-
 ---
-
 
 ## Repository Structure
 
