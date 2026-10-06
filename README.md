@@ -59,6 +59,8 @@ This matrix compares the true labels against what the model predicted:
 | **Actual Benign** | 2 | **84** (correct) | 5 |
 | **Actual Malignant** | 0 | **25** (false negative) | **17** (correct) |
 
+The results indicate that the malignant class suffers from low recall, whereas the benign class performs significantly better. Notably, the confusion matrix reveals 25 false negatives where malignant cases were incorrectly predicted as benign
+
 ## Repository Structure
 
 ```
