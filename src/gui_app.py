@@ -1,6 +1,3 @@
-# Tkinter GUI to run end-to-end inference: image -> mask + class
-# Run: python -m src.gui_app
-
 import tkinter as tk
 from tkinter import filedialog
 import numpy as np
